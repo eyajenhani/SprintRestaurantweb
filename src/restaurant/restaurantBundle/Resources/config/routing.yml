@@ -1,0 +1,133 @@
+restaurantrestaurant_homepage:
+    pattern:  /
+    defaults: { _controller: restaurantrestaurantBundle:Default:index }
+
+ 
+contact:
+    pattern:  /contact
+    defaults: { _controller: restaurantrestaurantBundle:Contact:contact }
+    
+    
+authentification:
+    pattern:  /authentification
+    defaults: { _controller: restaurantrestaurantBundle:Authentification:authentification }
+    
+    
+afficherbonplan:
+    pattern:  /afficherbonplan
+    defaults: { _controller: restaurantrestaurantBundle:GererBonPlan:afficherbonplan }
+    
+    
+consulterbonplan:
+    pattern:  /consulterbonplan
+    defaults: { _controller: restaurantrestaurantBundle:GererBonPlan:consulterbonplan }
+    
+    
+supprimerbonplan:
+    pattern:  /supprimerbonplan
+    defaults: { _controller: restaurantrestaurantBundle:GererBonPlan:supprimerbonplan }
+    
+    
+affichermenu:
+    pattern:  /affichermenu
+    defaults: { _controller: restaurantrestaurantBundle:GererMenu:affichermenu }
+    
+    
+supprimermenu:
+    pattern:  /supprimermenu
+    defaults: { _controller: restaurantrestaurantBundle:GererMenu:supprimermenu }
+    
+    
+consultermenu:
+    pattern:  /consultermenu
+    defaults: { _controller: restaurantrestaurantBundle:GererMenu:consultermenu }
+    
+    
+afficherfacture:
+    pattern:  /afficherfacture
+    defaults: { _controller: restaurantrestaurantBundle:GererFacture:afficherfacture }
+    
+    
+supprimerfacture:
+    pattern:  /supprimerfacture
+    defaults: { _controller: restaurantrestaurantBundle:GererFacture:supprimerfacture }
+    
+    
+consulterfacture:
+    pattern:  /consulterfacture
+    defaults: { _controller: restaurantrestaurantBundle:GererFacture:consulterfacture }
+    
+    
+afficherrestaurant:
+    pattern:  /afficherrestaurant
+    defaults: { _controller: restaurantrestaurantBundle:GererRestaurant:afficherrestaurant }
+    
+    
+supprimerrestaurant:
+    pattern:  /supprimerrestaurant
+    defaults: { _controller: restaurantrestaurantBundle:GererRestaurant:supprimerrestaurant }
+    
+    
+consulterrestaurant:
+    pattern:  /consulterrestaurant
+    defaults: { _controller: restaurantrestaurantBundle:GererFacture:consulterrestaurant }
+    
+    
+restaurant:
+    pattern:  /restaurant
+    defaults: { _controller: restaurantrestaurantBundle:RechercherRestaurant:restaurant }
+    
+    
+salon_de_the:
+    pattern:  /salon_de_the
+    defaults: { _controller: restaurantrestaurantBundle:RechercherRestaurant:salon_de_the }
+    
+    
+fastfood:
+    pattern:  /fastfood
+    defaults: { _controller: restaurantrestaurantBundle:RechercherRestaurant:fastfood }
+    
+    
+budgetmoins20:
+    pattern:  /budgetmoins20
+    defaults: { _controller: restaurantrestaurantBundle:RechercherRestaurant:budgetmoins20 }
+    
+    
+budgetplus50:
+    pattern:  /budgetplus50
+    defaults: { _controller: restaurantrestaurantBundle:RechercherRestaurant:budgetplus50 }
+    
+    
+budget2030:
+    pattern:  /budget2030
+    defaults: { _controller: restaurantrestaurantBundle:RechercherRestaurant:budget2030 }
+    
+    
+budget3040:
+    pattern:  /budget3040
+    defaults: { _controller: restaurantrestaurantBundle:RechercherRestaurant:budget3040 }
+    
+    
+budget4050:
+    pattern:  /budget4050
+    defaults: { _controller: restaurantrestaurantBundle:RechercherRestaurant:budget4050 }
+    
+    
+anime:
+    pattern:  /anime
+    defaults: { _controller: restaurantrestaurantBundle:RechercherBonPlan:anime }
+    
+    
+familiale:
+    pattern:  /familiale
+    defaults: { _controller: restaurantrestaurantBundle:RechercherBonPlan:familiale }
+    
+    
+romantique:
+    pattern:  /romantique
+    defaults: { _controller: restaurantrestaurantBundle:RechercherBonPlan:romantique }
+    
+    
+autres:
+    pattern:  /autres
+    defaults: { _controller: restaurantrestaurantBundle:RechercherBonPlan:autres }

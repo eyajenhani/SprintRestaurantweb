@@ -1,0 +1,244 @@
+{% extends "restaurantrestaurantBundle::layout.html.twig" %}
+{% block container %}
+<header>
+	<div id="header-top-bar"></div>
+		<div class="width-container">
+			<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="WordPress Theme" width="288"></a></h1>
+		<nav>
+				<ul class="sf-menu">
+					<li class="current-menu-item">
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="#">Rechercher restaurant</a>
+					<ul>
+					
+					<li>
+						<a href="#">Type</a>
+						<ul>
+						<li>
+						<a href="trouver_restaurant.html">Salon de thé</a>
+						</li>
+						<li>
+						<a href="trouver_restaurant.html">Restaurant</a>
+						</li>
+						<li>
+						<a href="trouver_restaurant.html">Fastfood</a>
+						</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Par budget</a>
+						<ul>
+						<li>
+						<a href="trouver_restaurant.html">Restaurant a moins 20dt</a>
+						</li>
+						<li>
+						<a href="trouver_restaurant.html">Restaurant a entre 20dt et 30dt</a>
+						</li>
+						<li>
+						<a href="trouver_restaurant.html">Restaurant a entre 40dt et 50dt</a>
+						</li>
+						<li>
+						<a href="trouver_restaurant.html">Restaurant a plus de 50dt</a>
+						</li>
+						</ul>
+					</li>
+					
+					</ul>
+					</li>
+					
+					<li>
+						<a href="#">Rechercher bon plans</a>
+						<ul>
+							  <li><a href="trouver_bon_plans.html">Romantique</a></li>
+        
+      	  <li><a href="trouver_bon_plans.html">Familiale</a></li>
+        
+      	  <li><a href="trouver_bon_plans.html">Animé</a></li>
+						</ul>
+					</li>
+					
+					<li>
+						<a href="{{ path('contacte') }}">Contact</a>
+					</li>
+				</ul>
+			</nav>
+		
+		<div class="clearfix"></div>
+		</div><!-- close .width-container -->
+	</header>
+<div id="page-title">
+		<div class="width-container paged-title">
+			<h1>Menu</h1>	
+		</div>
+		<div id="page-title-divider"></div>
+	</div><!-- #page-title -->
+	<div class="clearfix"></div>
+
+	
+	
+	<div id="main">
+		<div class="width-container">
+			<div class="grid2column">
+				<h3 class="header-underline">Main Courses</h3>
+				<ul class="menu-items">
+					<li>
+						<div class="grid2column">Roasted Apple Tart</div>
+						<div class="grid2column lastcolumn">$12,00</div>
+						<div class="clearfix"></div>
+						<div class="item-description-menu">Cras eget est tempor odio molestie ultricies. Donec gravida libero at metus tincidunt sit amet.</div></a>
+					</li>
+					<li>
+						<a href="menu-post.html"><div class="grid2column">Cheese Plate</div>
+						<div class="grid2column lastcolumn">$14,00</div>
+						<div class="clearfix"></div>
+						<div class="item-description-menu">Cras eget est tempor odio molestie ultricies. Donec gravida libero at metus tincidunt sit amet.</div></a>
+					</li>
+					<li>
+						<a href="menu-post.html"><div class="grid2column">Smoked, Bacon Wrapper Prawns</div>
+						<div class="grid2column lastcolumn">$18,00</div>
+						<div class="clearfix"></div>
+						<div class="item-description-menu">Cras eget est tempor odio molestie ultricies. Donec gravida libero at metus tincidunt sit amet.</div></a>
+					</li>
+					<li>
+						<a href="menu-post.html"><div class="grid2column">Greek Lamb Sliders</div>
+						<div class="grid2column lastcolumn">$20,00</div>
+						<div class="clearfix"></div>
+						<div class="item-description-menu">Cras eget est tempor odio molestie ultricies. Donec gravida libero at metus tincidunt sit amet.</div></a>
+					</li>
+					<li>
+						<a href="menu-post.html"><div class="grid2column">Artichoke Rosemary Salmon</div>
+						<div class="grid2column lastcolumn">$22,00</div>
+						<div class="clearfix"></div>
+						<div class="item-description-menu">Cras eget est tempor odio molestie ultricies. Donec gravida libero at metus tincidunt sit amet.</div></a>
+					</li>
+					<li>
+						<a href="menu-post.html"><div class="grid2column">Fresh Fettuccini Garlic Alfredo</div>
+						<div class="grid2column lastcolumn">$24,00</div>
+						<div class="clearfix"></div>
+						<div class="item-description-menu">Cras eget est tempor odio molestie ultricies. Donec gravida libero at metus tincidunt sit amet.</div></a>
+					</li>
+					<li>
+						<a href="menu-post.html"><div class="grid2column">Grilled Pork Chop with Lavender Demi Glaze</div>
+						<div class="grid2column lastcolumn">$26,00</div>
+						<div class="clearfix"></div>
+						<div class="item-description-menu">Cras eget est tempor odio molestie ultricies. Donec gravida libero at metus tincidunt sit amet.</div></a>
+					</li>
+					<li>
+						<a href="menu-post.html"><div class="grid2column">Fresh Fish of the Night</div>
+						<div class="grid2column lastcolumn">$38,00</div>
+						<div class="clearfix"></div>
+						<div class="item-description-menu">Cras eget est tempor odio molestie ultricies. Donec gravida libero at metus tincidunt sit amet.</div></a>
+					</li>
+				</ul>
+				
+				<div class="menu-spacer"></div>
+			</div>
+			<div class="grid2column lastcolumn">
+				<h3 class="header-underline">Drinks</h3>
+				<ul class="menu-items">
+					<li>
+						<div class="grid2column">Cola</div>
+						<div class="grid2column lastcolumn">$4,00</div>
+						<div class="clearfix"></div>
+					</li>
+					<li>
+						<div class="grid2column">Beer</div>
+						<div class="grid2column lastcolumn">$6,00</div>
+						<div class="clearfix"></div>
+					</li>
+					<li>
+						<div class="grid2column">Juice</div>
+						<div class="grid2column lastcolumn">$3,00</div>
+						<div class="clearfix"></div>
+					</li>
+					<li>
+						<div class="grid2column">Still Water</div>
+						<div class="grid2column lastcolumn">$3,00</div>
+						<div class="clearfix"></div>
+					</li>
+					<li>
+						<div class="grid2column">Sparkling Water</div>
+						<div class="grid2column lastcolumn">$3,00</div>
+						<div class="clearfix"></div>
+					</li>
+				</ul>
+				
+				<div class="menu-spacer"></div>
+				<h3 class="header-underline">Salads</h3>
+				<ul class="menu-items">
+					<li>
+						<div class="grid2column">Sundried Tomato Salad</div>
+						<div class="grid2column lastcolumn">$10,00</div>
+						<div class="clearfix"></div>
+						<div class="item-description-menu">Cras eget est tempor odio molestie ultricies. Donec gravida libero at metus tincidunt sit amet.</div>
+					</li>
+					<li>
+						<div class="grid2column">Prosciutto Caesar Salad</div>
+						<div class="grid2column lastcolumn">$11,50</div>
+						<div class="clearfix"></div>
+						<div class="item-description-menu">Cras eget est tempor odio molestie ultricies. Donec gravida libero at metus tincidunt sit amet.</div>
+					</li>
+					
+				</ul>
+				
+				<div class="menu-spacer"></div>
+			</div>
+			<div class="clearfix"></div>
+			
+			
+		<div class="clearfix"></div>
+		</div><!-- close .width-container -->
+		
+			<div class="widget-area-highlight">
+		<div class="width-container">
+			
+						<div class="grid4column homepage-widget">
+				<h3 class="header-underline">Qui sommes nous</h3>
+				<p>At dawn on the 13th the Carnatic entered the port of Yokohama. This is an important port of call in the Pacific, where all the mail-steamers.</p>
+			</div>
+			
+			<div class="grid4column homepage-widget">
+				<h3 class="header-underline">Inscription</h3>
+				<!-- Begin MailChimp Signup Form -->
+				<div id="mc_embed_signup">
+					<form action="http://progressionstudios.us1.list-manage.com/subscribe/post?u=1a06aa3bca8613232881e8a6e&amp;id=2f5a556941" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+						<label for="mce-EMAIL">Join our digital mailing list and get news, deals, and be first to know about events at White Rock!</label>
+						
+						<div class="clear"><input type="submit" value="Inscription" name="inscription" id="mc-embedded-subscribe" class="button"></div>
+					</form>
+				</div>
+				<!--End MailChimp Signup Form-->
+			</div>
+			
+			
+			<div class="grid4column homepage-widget">
+				<h3 class="header-underline">Contacter nous</h3>
+				<h6 class="heading-address-widget">Resto-Tunisie</h6>
+				<div class="e-mail-widget"><span>E-mail:</span> <a href="#">admin@e-mail.com</a></div>
+				<div class="social-icons">
+						<a class="rss" href="#" target="_blank">r</a>
+						<a class="facebook" href="http://facebook.com/" target="_blank">F</a>
+						<a class="twitter" href="https://twitter.com/Progression_S" target="_blank">t</a>
+						<a class="skype" href="http://skype.com/" target="_blank">s</a>
+						<a class="vimeo" href="http://vimeo.com/" target="_blank">v</a>
+						<a class="linkedin" href="http://linkedin.com/" target="_blank">l</a>
+						<!--a class="dribbble" href="http://dribbble.com/" target="_blank">d</a-->
+						<!--a class="forrst" href="http://forrst.com/" target="_blank">f</a-->
+						<!--a class="flickr" href="http://flickr.com" target="_blank">n</a-->
+						<!--a class="google" href="http://google.com" target="_blank">g</a-->
+						<!--a class="youtube" href="http://youtube.com" target="_blank">y</a-->
+						<div class="clearfix"></div>
+				</div><!-- close .social-icons -->
+			</div>
+			
+			
+			
+		<div class="clearfix"></div>
+		</div><!-- close .width-container -->
+		</div><!-- close .widget-area-highlight -->
+		
+		<div class="clearfix"></div>
+	</div><!-- close #main -->
+        {% endblock%}

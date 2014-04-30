@@ -1,0 +1,4 @@
+restaurantrestaurant:
+    resource: "@restaurantrestaurantBundle/Resources/config/routing.yml"
+    prefix:   /
+

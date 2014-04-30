@@ -1,0 +1,45 @@
+
+{# empty Twig template #}
+{% extends "restaurantrestaurantBundle::layout.html.twig" %}
+{% block container %}
+
+	<div id="page-title">
+		<div class="width-container paged-title">
+			<h1>Contacter nous<h1>	
+		</div>
+		<div id="page-title-divider"></div>
+	</div><!-- #page-title -->
+	<div class="clearfix"></div>
+
+	
+	
+	<div id="main">
+		<div class="width-container">
+			
+
+			
+			
+			<div class="grid2column lastcolumn">
+				
+				<h3 class="header-underline">Envoyer un mail</h3>
+				
+<form>
+  </br>      
+    <label>Name</label>
+    <input name="name" placeholder="Type Here">
+</br>
+    <label>Email</label>
+    <input name="email" type="email" placeholder="Type Here">
+ </br>           
+    <label>Message</label>
+    <textarea name="message" placeholder="Type Here"></textarea>
+ </br>           
+    <input type="submit" id="mc-embedded-subscribe" class="button" value="Envoyer">
+        
+</form>
+			</div>
+			<div class="clearfix"></div>
+			
+		<div class="clearfix"></div>
+		</div><!-- close .width-container -->
+{% endblock %}

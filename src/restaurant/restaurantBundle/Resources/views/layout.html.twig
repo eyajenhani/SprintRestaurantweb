@@ -1,0 +1,131 @@
+<!doctype html>
+<html class="no-js" lang="fr"> 
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>White Rock Template</title>
+	<meta name="description" content="">
+
+	<meta name="viewport" content="width=device-width">
+	
+	<link rel="stylesheet" href="{{ asset('style.css') }}">
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+	<script src="{{ asset('js/modernizr-2.6.2.min.js') }}"></script>
+	<script src="{{ asset('js/jquery.js') }}"></script>
+	<script src="{{ asset('js/jquery-migrate-1.2.1.min.js') }}"></script>	
+
+	<script src="{{ asset('js/plugins.js') }}"></script>
+	<script src="{{ asset('js/script.js') }}"></script>
+	
+
+</head>
+<body>
+    
+    <header>
+	<div id="header-top-bar"></div>
+		<div class="width-container">
+			<h1 id="logo"><img src="{{ asset('images/logo.png') }}" alt="WordPress Theme" width="288"></h1>
+			
+			<nav>
+			
+				<ul class="sf-menu">
+					<li class="current-menu-item">
+						<a href="{{ path('restaurantrestaurant_homepage') }}">Accueil</a>
+					</li>
+					<li>
+						<a href="#">Rechercher restaurant</a>
+					<ul>
+					
+					<li>
+						<a href="#">Type</a>
+						<ul>
+						<li>
+						<a href="{{ path('salon_de_the') }}">Salon de thé</a>
+						</li>
+						<li>
+						<a href="{{ path('restaurant') }}">Restaurant</a>
+						</li>
+						<li>
+						<a href="{{ path('fastfood') }}">Fastfood</a>
+						</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Par budget</a>
+						<ul>
+						<li>
+						<a href="{{ path('budgetmoins20') }}">Restaurant a moins 20dt</a>
+						</li>
+						<li>
+						<a href="{{ path('budget2030') }}">Restaurant a entre 20dt et 30dt</a>
+						</li>
+                                                <li>
+						<a href="{{ path('budget3040') }}">Restaurant a entre 30dt et 40dt</a>
+						</li>
+						<li>
+						<a href="{{ path('budget4050') }}">Restaurant a entre 40dt et 50dt</a>
+						</li>
+						<li>
+						<a href="{{ path('budgetplus50') }}">Restaurant a plus de 50dt</a>
+						</li>
+						</ul>
+					</li>
+					
+					</ul>
+					</li>
+					
+					<li>
+						<a href="#">Rechercher bon plans</a>
+						<ul>
+							  <li><a href="{{ path('romantique') }}">Romantique</a></li>
+        
+      	  <li><a href="{{ path('familiale') }}">Familiale</a></li>
+        
+      	  <li><a href="{{ path('anime') }}">Animé</a></li>
+            <li><a href="{{ path('autres') }}">autres</a></li>
+						</ul>
+					</li>
+					
+					<li>
+						<a href="{{ path('contact') }}">Contact</a>
+					</li>
+				</ul>
+				
+				
+			</nav>
+		
+		<div class="clearfix"></div>
+		</div><!-- close .width-container -->
+        <nav align="right" >
+	</br></br>
+	<a href="{{ path('authentification') }}"> <h6 ></b><font color="#22427C"> se connecter</font></b></h6></a>
+	</nav>
+	</header>
+    {% block container %}
+    
+    
+    {% endblock %}
+	<footer>
+		<div class="width-container">
+			<div id="copyright">
+				
+				<div class="grid2column">
+					<a href="index.html"><img src="images/logo-footer.png" width="150" alt="Logo-footer"></a>
+				</div>
+				
+				<div class="grid2column lastcolumn">
+					<ul>
+						<li><a href="index.html">Accueil</a></li>
+						<li><a href="{{ path('contact') }}">Contact</a></li>
+						
+					</ul>
+				</div>
+				
+			<div class="clearfix"></div>
+			</div><!-- close #copyright -->
+		</div><!-- close .width-container -->
+	</footer>
+	
+</body>
+</html>
